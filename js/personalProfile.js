@@ -1,5 +1,5 @@
 
-class Person {
+export class Person {
     constructor(name, imageUrl) {
         this.name = name;
         this.imageUrl = imageUrl;
@@ -14,3 +14,4 @@ function render(person) {
         </div>
     `
 }
+
