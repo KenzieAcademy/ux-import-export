@@ -6,7 +6,7 @@ export class Person {
     }
 }
 
-function render(person) {
+export function render(person) {
     return `
         <div class="profile shadow">
             <img src="${person.imageUrl}"/>
