@@ -1,5 +1,5 @@
 body {
-    background-image: url("./background_colors.jpg");
+    background-image: url("./images/background_colors.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0px;
@@ -16,15 +16,17 @@ h1 {
     box-shadow: 5px 7px 5px 5px #00000057;
 }
 
-.profile {
+.profile{
     display: inline-block;
     background: #d8d8d8;
     overflow: hidden;
     margin: 20px;
+    border-radius: 50%;
+    width: 200px;
 }
 
 .profile img {
-    width: 200px;
+    width: 600px;
     height: 200px;
     margin: 20px;
     border-radius: 100px;
@@ -43,3 +45,4 @@ h1 {
 #list li {
     display: inline-block;
 }
+
