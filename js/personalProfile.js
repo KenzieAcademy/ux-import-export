@@ -14,3 +14,6 @@ function render(person) {
         </div>
     `
 }
+export {
+    Person, render
+}
