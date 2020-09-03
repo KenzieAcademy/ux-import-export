@@ -1,12 +1,13 @@
+// import {imageUrl} from "./imgs/bob-ross.jpg";
 
-class Person {
+export class Person {
     constructor(name, imageUrl) {
         this.name = name;
         this.imageUrl = imageUrl;
     }
 }
 
-function render(person) {
+export function render(person) {
     return `
         <div class="profile shadow">
             <img src="${person.imageUrl}"/>
@@ -14,3 +15,4 @@ function render(person) {
         </div>
     `
 }
+// export {Person, render};

@@ -1,4 +1,5 @@
-import { Person, render } from "./personalProfile.js"
+import { Person, render } from "./personalProfile.js";
+
 
 let people = [
     new Person("Bob", "bob-ross.jpg"),
@@ -22,3 +23,5 @@ function renderList(people) {
 
     document.getElementById("list").innerHTML = html;
 }
+
+export default App;
