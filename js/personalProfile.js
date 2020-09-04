@@ -1,4 +1,4 @@
-// import {imageUrl} from "./imgs/bob-ross.jpg";
+
 
 export class Person {
     constructor(name, imageUrl) {
@@ -15,4 +15,3 @@ export function render(person) {
         </div>
     `
 }
-// export {Person, render};
