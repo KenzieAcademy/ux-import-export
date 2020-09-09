@@ -1,5 +1,4 @@
 import { Person, render } from "./personalProfile.js";
-// import Person from "../images";
 
 let people = [
   new Person("Bob", "./images/bob-ross.jpg"),
